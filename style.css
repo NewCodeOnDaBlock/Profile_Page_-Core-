@@ -1,16 +1,16 @@
 * {
 
-padding: 0px;
-margin: 0px;
-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 
 }
 
 body {
 
-font-family: 'Roboto', sans-serif;
-width: 100%;
-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
 
 
 }
@@ -19,70 +19,70 @@ height: 100vh;
 
 .nav-bar {
 
-color: white;
-background: #8360c3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-width: 100%;
-height: 80px;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
+    color: white;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 
 
 }
 
 .nav-bar h1 {
 
-color: white;
-margin-bottom: 45px;
-margin-left: 50px;
+    color: white;
+    margin-bottom: 45px;
+    margin-left: 50px;
 
 
 }
 
 .nav-bar ul {
 
-display: flex;
-width: 500px;
-justify-content: space-evenly;
-margin-left: 10px;
-list-style: none;
-align-items: center;
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    list-style: none;
+    align-items: center;
 
 }
 
 .nav-bar ul li a {
 
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 
 }
 
 .nav-bar ul li a:hover {
 
-color: #8360c3;
-cursor: pointer;
+    color: #8360c3;
+    cursor: pointer;
 
 }
 
 .sign-out {
 
-color: white;
-background: #2ebf91;
-width: 110px;
-height: 30px;
-margin-left: 480px;
-border-radius: 5px;
-border: 1px solid rgba(255, 255, 255, 0.514);
+    color: white;
+    background: #2ebf91;
+    width: 110px;
+    height: 30px;
+    margin-left: 480px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.514);
 
 }
 
 .sign-out:hover {
 
-background: #8360c3;
-cursor: pointer;
+    background: #8360c3;
+    cursor: pointer;
 
 }
 
@@ -90,18 +90,18 @@ cursor: pointer;
 
 #profile-container {
 
-width: 100%;
-height: 100vh;
-display: flex;
-flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
 
 
 }
 
 #box1 {
 
-width: 50%;
-height: 100vh;
+    width: 50%;
+    height: 100vh;
 
 
 }
@@ -119,87 +119,90 @@ height: 100vh;
 
 .profile-card {
 
-margin-top: 30px;
-margin-left: 220px;
-width: 400px;
-height: 310px;
-border: 2px solid rgb(206, 206, 206);
-border-radius: 12px;
-padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 400px;
+    height: 310px;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 12px;
+    padding-bottom: 10px;
 
 }
 
 .card-top {
 
-width: 100%;
-height: 80px;
-background-color: #2ebf91;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: #2ebf91;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
 .profile-pic {
 
-position: absolute;
-border-radius: 50%;
-top: 130px;
-left: 235px;
-width: 100px;
-border: 3px solid #8360c398;
+    position: absolute;
+    border-radius: 50%;
+    top: 130px;
+    left: 235px;
+    width: 100px;
+    border: 3px solid #8360c398;
 
 }
 
 .profile-pic:hover {
 
-border-color: #5b2db098;
-cursor: pointer;
+    border-color: #5b2db098;
+    cursor: pointer;
 
 }
 
 h1  {
 
-font-size: 20px;
-margin-top: 45px;
-margin-left: 10px;
-color: rgb(107, 106, 106);
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 10px;
+    color: rgb(107, 106, 106);
+
 }
 
 .pinpoint {
 
-margin-left: 10px;
-margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
 
 }
 
 .location {
 
-color: rgb(107, 106, 106);
-margin-left: 30px;
-margin-top: -20px;
-font-size: 15px;
+    color: rgb(107, 106, 106);
+    margin-left: 30px;
+    margin-top: -20px;
+    font-size: 15px;
+
 }
 
 .profile-description {
 
-color:rgb(74, 74, 74);
-margin-top: 20px;
-margin-left: 15px;
+    color:rgb(74, 74, 74);
+    margin-top: 20px;
+    margin-left: 15px;
 
 }
 
 .gear-icon {
 
-width: 15px;
-margin-left: 8px;
-margin-top: 40px;
+    width: 15px;
+    margin-left: 8px;
+    margin-top: 40px;
 
 }
 
 
 .edit-profile {
 
-color: grey;
-font-size: 13px;
+    color: grey;
+    font-size: 13px;
 
 }   
 
@@ -214,36 +217,35 @@ font-size: 13px;
 .background-card {
 
 
-width: 400px;
-height: 310px;
-border: 2px solid rgb(206, 206, 206);
-border-radius: 12px;
-padding-bottom: 10px;
-margin-top: 30px;
-margin-left: 220px;
-
+    width: 400px;
+    height: 310px;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 12px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 220px;
 
 
 }
 
 .backgroundcard-top {
 
-width: 100%;
-height: 80px;
-background-color: #2ebf91;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: #2ebf91;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 
 }
 
 .background-title {
 
-position: relative;
-color: white;
-top: 30px;
-left: 30px;
-font-size: 18px;
+    position: relative;
+    color: white;
+    top: 30px;
+    left: 30px;
+    font-size: 18px;
 
 }
 
@@ -257,11 +259,11 @@ font-size: 18px;
 
 .background-list p {
 
-width: 90%;
-font-size: 14px;
-color: rgb(116, 114, 114);
-margin-top: 10px;
-margin-left: 25px;
+    width: 90%;
+    font-size: 14px;
+    color: rgb(116, 114, 114);
+    margin-top: 10px;
+    margin-left: 25px;
 
 }
 
@@ -270,178 +272,181 @@ margin-left: 25px;
 .friend-request {
 
 
-width: 400px;
-height: 200px;
-margin-top: 30px;
-border: 2px solid rgb(206, 206, 206);
-border-radius: 12px;
-padding-bottom: 10px;
-overflow: scroll;
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 12px;
+    padding-bottom: 10px;
+    overflow: scroll;
 
 
 }
 
 .friendrequest-top {
 
-width: 100%;
-height: 50px;
-background-color: #2ebf91;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #2ebf91;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
 .friendrequest-title{
 
-position: relative;
-color: white;
-top: 15px;
-left: 20px;
-font-size: 18px;
+    position: relative;
+    color: white;
+    top: 15px;
+    left: 20px;
+    font-size: 18px;
 
 }
 
 
 .list-request{
 
-display: flex;
-flex-direction: column;
-list-style: none;
-align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
 
 }
 
 .accept-deny {
 
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
 }
 
 .list-request li {
 
 
-margin-top: 10px;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
-width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
 
 }
 
 .list-request li h3 {
 
-color: rgb(116, 114, 114);
-margin-left: -30px;
+    color: rgb(116, 114, 114);
+    margin-left: -30px;
+
 }
 
 .list-request li h3:hover {
 
-cursor: pointer;
+    cursor: pointer;
+
 }
 
 .list-request li img {
 
-width: 50px;
-border-radius: 50%;
-border:  3px solid #8360c398;
-margin-top: 5px;
-margin-left: 15px;
+    width: 50px;
+    border-radius: 50%;
+    border:  3px solid #8360c398;
+    margin-top: 5px;
+    margin-left: 15px;
 
 }
 
 .list-request li img:hover {
 
-border-color: #622dc598;
-cursor: pointer;
+    border-color: #622dc598;
+    cursor: pointer;
+
 }
 
 .list-request li .accept {
 
-width: 40px;
-border: 2px solid white;
+    width: 40px;
+    border: 2px solid white;
 
 }
 
 .list-request li .accept:hover {
 
-cursor: pointer;
-border-color: #8360c398;
+    cursor: pointer;
+    border-color: #8360c398;
+
 }
 
 .list-request li .deny {
 
-width: 40px;
-border: 2px solid white;
+    width: 40px;
+    border: 2px solid white;
 
 }
 
 .list-request li .deny:hover {
 
-cursor: pointer;
-border-color: #8360c398;
+    cursor: pointer;
+    border-color: #8360c398;
+
 }
 
 /* ------------------------- Friend List Card --------------------*/
 
 .friend-list {
 
-
-
-margin-top: 30px;
-width: 400px;
-height: 425px;
-border: 2px solid rgb(206, 206, 206);
-border-radius: 12px;
-padding-bottom: 10px;
-overflow: scroll;
+    margin-top: 30px;
+    width: 400px;
+    height: 425px;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 12px;
+    padding-bottom: 10px;
+    overflow: scroll;
 
 }
 
 
 .friendlist-top {
 
-width: 100%;
-height: 50px;
-background-color: #2ebf91;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #2ebf91;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
 .friendlist-title{
 
-position: relative;
-color: white;
-top: 15px;
-left: 20px;
-font-size: 18px;
+    position: relative;
+    color: white;
+    top: 15px;
+    left: 20px;
+    font-size: 18px;
 
 }
 
 .connection-list {
 
-display: flex;
-flex-direction: column;
-list-style: none;
-align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
 
 }
 
 .connection-list li h3 {
 
-margin-left: 20px;
+    margin-left: 20px;
 
 }
 
 .connection-list li a {
 
-color: rgb(116, 114, 114);
-text-decoration: none;
-display: flex;
-flex-direction: row;
-align-items: center;
+    color: rgb(116, 114, 114);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 
 }
@@ -449,18 +454,18 @@ align-items: center;
 
 .connection-list li img {
 
-width: 50px;
-border-radius: 50%;
-border:  3px solid #8360c398;
-margin-top: 10px;
-margin-left: 35px;
+    width: 50px;
+    border-radius: 50%;
+    border:  3px solid #8360c398;
+    margin-top: 10px;
+    margin-left: 35px;
 
 }
 
 .connection-list li img:hover {
 
-border-color: #4a11b498;
-cursor: pointer;
+    border-color: #4a11b498;
+    cursor: pointer;
 
 }
 
