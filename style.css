@@ -203,6 +203,11 @@ font-size: 13px;
 
 }   
 
+.edit-profile:hover{
+
+    color: #2ebf91;
+}
+
 /* ------------------------------ Background Card --------------------------------- */
 
 
@@ -456,5 +461,11 @@ margin-left: 35px;
 
 border-color: #4a11b498;
 cursor: pointer;
+
+}
+
+.card-shadow{
+
+    box-shadow: 2px 1px 4px #8E2DE2;
 
 }

@@ -12,7 +12,7 @@
 </head>
 <body>  
 <div class="nav-bar">
-        <h1>My Own Facebook</h1>
+        <h1>My Profile Home</h1>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">My Profile</a></li>
@@ -22,7 +22,7 @@
 </div> 
 <div id="profile-container">
     <div id="box1">
-        <div class="profile-card">
+        <div class="profile-card" onouseover="addShadow(this)" onmouseout="removeShadow(this)">
             <div class="card-top">
                 <img class="profile-pic" src="/avatar_images/223072347_2554411798037822_6696986934488881211_n.jpeg" width="130" alt="profilepic">
             </div>
@@ -123,11 +123,6 @@
         </div>
     </div>
 </div>    
-
-   
-
-
-
-    
+<script src="script.js"></script>
 </body>
 </html>
