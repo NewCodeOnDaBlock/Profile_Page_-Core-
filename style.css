@@ -27,7 +27,7 @@ body {
     height: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 
 
@@ -90,9 +90,11 @@ body {
 
 #profile-container {
 
-    width: 100%;
+    width: 70%;
     height: 100vh;
     display: flex;
+    align-items: center;
+    margin-left: 18%;
     flex-direction: row;
 
 
@@ -110,8 +112,6 @@ body {
 
     width: 50%;
     height: 100vh;
-   
-    
 
 }
 
@@ -147,6 +147,7 @@ body {
     left: 235px;
     width: 100px;
     border: 3px solid #8360c398;
+    margin-left: 360px;
 
 }
 
@@ -347,7 +348,7 @@ h1  {
 
 .list-request li img {
 
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
     border:  3px solid #8360c398;
     margin-top: 5px;
@@ -438,6 +439,12 @@ h1  {
 
     margin-left: 20px;
 
+}
+
+.connection-list li p{
+
+    margin-left: 50px;
+    font-size: 12px;
 }
 
 .connection-list li a {

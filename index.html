@@ -26,13 +26,13 @@
             <div class="card-top">
                 <img class="profile-pic" src="/avatar_images/my-profile.jpeg" width="130" alt="profilepic">
             </div>
-                <h1 class="profile-name">Raden Mantuano</h1>
+                <h1 class="profile-name">Raden L. Mantuano</h1>
                 <img class="pinpoint" src="/icon_images/map_icon.png" width="15" alt="mapicon">
                 <h3 class="location">California</h3>
                 <p class="profile-description">Developer | Engineer | Problem Solver<br>
                 Master of shadows and the Internet!</p>
                 <img class="gear-icon" src="/icon_images/gear_icon.png"  alt="gear">
-                <a class="edit-profile" href="#">edit profile</a>
+                <a class="edit-profile" href="#" onclick="changeUser(this)">edit profile</a>
         </div>
         <div class="background-card">
             <div class="backgroundcard-top">
@@ -52,38 +52,29 @@
                 <h3 class="friendrequest-title">You Have Some Friend Requests!</h3>
             </div>
             <ul class="list-request">
-                <li>
-                    <img src="/avatar_images/adrien-s.jpg" alt="">
-                    <h3>Adrien Y.</h3>
-                    <img class="accept" src="/icon_images/accept-circle.png" alt="">
-                    <img class="deny" src="/icon_images/close-circle.png" alt="">
+                <li class="list-1">
+                    <img class="friendrequest-pic" src="/avatar_images/adrien-s.jpg" alt="">
+                    <h3 class="friendrequest-name">Adrien Y.</h3>
+                    <img class="accept-btn" onclick="acceptFriendOne(this)" src="/icon_images/accept-circle.png" alt="">
+                    <img class="deny-btn" onclick="denyFriendOne(this)" src="/icon_images/close-circle.png" alt="">
                 </li>
-                <li>
+                <li class="list-2">
                     <img src="/avatar_images/alayne-s.jpg" alt="">
                     <h3>Alayne S.</h3>
-                    <img class="accept" src="/icon_images/accept-circle.png" alt="">
-                    <img class="deny" src="/icon_images/close-circle.png" alt="">
+                    <img class="accept" onclick="acceptFriendTwo(this)" src="/icon_images/accept-circle.png" alt="">
+                    <img class="deny" onclick="denyFriendTwo(this)"  src="/icon_images/close-circle.png" alt="">
                 </li>            
-                <li><img src="/avatar_images/alayne-s.jpg" alt="">
-                    <h3>Alayne S.</h3>
-                    <img class="accept" src="/icon_images/accept-circle.png" alt="">
-                    <img class="deny" src="/icon_images/close-circle.png" alt="">
-                </li>            
-                <li><img src="/avatar_images/alayne-s.jpg" alt="">
-                    <h3>Alayne S.</h3>
-                    <img class="accept" src="/icon_images/accept-circle.png" alt="">
-                    <img class="deny" src="/icon_images/close-circle.png" alt="">
-                </li>            
-                <li><img src="/avatar_images/alayne-s.jpg" alt="">
-                    <h3>Alayne S.</h3>
-                    <img class="accept" src="/icon_images/accept-circle.png" alt="">
-                    <img class="deny" src="/icon_images/close-circle.png" alt="">
-                </li>            
+                <li class="list-3">
+                    <img src="/avatar_images/anne-s.jpg" alt="">
+                    <h3>Sasha W..</h3>
+                    <img class="accept" onclick="acceptFriendThree(this)" src="/icon_images/accept-circle.png" alt="">
+                    <img class="deny" onclick="denyFriendThree(this)"  src="/icon_images/close-circle.png" alt="">
+                </li>                  
             </ul>
         </div> 
         <div class="friend-list">
             <div class="friendlist-top">
-                <h3 class="friendlist-title">Friends & Connections</h3>
+                <h3 class="friendlist-title">(900) Friends & Connections</h3>
             </div> 
                 <ul class="connection-list"> 
                     <li>
